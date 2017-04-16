@@ -1,0 +1,15 @@
+YEOMAN: https://github.com/yeoman/generator-angular
+
+DATA:  inhttp://samples.openweathermap.org/data/2.5/forecast?q=London,us&appid=b1b15e88fa797225412429c1c50c122a1
+
+UI: https://www.psdmockups.com/wp-content/uploads/2013/03/flat-ui-weather.jpg
+
+ICONS: http://adamwhitcroft.com/climacons/
+
+- La imagen tiene una resolucion para retina, 2x.*
+- Los iconos deben ser SVG.*
+- Todos los textos e iconos deben ingresar con un fade.*
+- Los iconos de abajo ademas del fade tienen que ingresar con una animacion desde fuera del recuadro hacia arriba.*
+- El area gris actua como botones.*
+- Al hacer un roll over sobre los botones, los iconos tienen que cambiar de color a un violeta clarito o cualquiera que quede bien.*
+- Al clikear sobre uno de los iconos de abajo debe quedar seleccionado (color violeta) y debe mostrar la informacion de ese dia en la parte blanca con alguna animacion. (puede ser un fade)*

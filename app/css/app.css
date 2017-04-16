@@ -1,0 +1,137 @@
+
+body {
+	margin: 0;
+}
+
+.weather-header {
+	height: 165px;
+	background-color: #323a45;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather-header .title-icon {
+	position: absolute;
+    font-size: 165px;
+    top: 0;
+    left: 0;
+    color: #5e6d80;
+}
+
+.weather-header h1 {
+	margin: 0;
+	color: #eaeaec;
+	font-size: 55px;
+    font-weight: bold;
+}
+
+.current-weather {
+	height: 490px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.current-weather .current-weather-icon {
+	font-size: 400px;
+	color: #fed200;
+}
+
+.current-weather .temp-container {
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+}
+
+.current-weather .temp-container .max-temp {
+	color: #dce1e7;
+	font-size: 130px;
+}
+
+.current-weather .temp-container .min-temp {
+	color: #dce1e7;
+	font-size: 80px;
+}
+
+.max-temp, .min-temp, .list-weather-day {
+	display: block;
+}
+
+.weather-day-list {
+	height: 242px;
+	background-color: #f9fafc;
+	margin: 0;
+    padding: 0;
+    border-top: 4px solid #ecedf1;
+    border-bottom: 4px solid #ecedf1;
+}
+
+.weather-day-list:first-child {
+	border-left: none;
+}
+
+.weather-day-list li {
+	height: 100%;
+	list-style: none;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+    text-align: center;
+    width: calc(100%/3 - 12px);
+    border-left: 4px solid #ecedf1;
+    color: #5e6d80;
+}
+
+.weather-day-list li:hover {
+	color: #ff55a3;
+	box-shadow: 0px 4px;
+	cursor: pointer;
+}
+
+.weather-day-list li.selected {
+	color: #ff55a3;
+}
+
+.weather-day-list li .list-icon {
+	font-size: 150px;
+}
+
+.weather-day-list li .list-weather-day {
+	font-size: 35px;
+    font-weight: bold;
+}
+
+/*------------animations------------------*/
+.bottom-animation {
+	position: relative;
+	animation: bottom-animate 1s;
+}
+
+h1, span, i {
+	animation: fade-in-animate 2s;
+}
+
+.fade-in {
+	animation: fade-in-animate 1s;
+}
+
+@keyframes bottom-animate {
+	0% {
+	    bottom: -300px;
+	}
+
+	100% {
+	    bottom: 0;
+	}
+}
+
+@keyframes fade-in-animate {
+	0% {
+	    opacity: 0;
+	}
+
+	100% {
+	    opacity: 1;
+	}
+}

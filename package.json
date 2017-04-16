@@ -1,0 +1,14 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "name": "angular-weather",
+  "description": "An AngularJS application for ITX",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "bower": "^1.3.1"
+  },
+  "scripts": {
+    "start": "http-server app -a 0.0.0.0 -p 8000"
+  }
+}

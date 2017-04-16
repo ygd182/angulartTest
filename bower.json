@@ -1,0 +1,13 @@
+{
+  "name": "angular-test-app",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-route": "1.5.x",
+    "lodash": "^4.17.4",
+    "angular-animate": "1.5.x"
+  }
+}
